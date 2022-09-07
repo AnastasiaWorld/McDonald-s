@@ -1,0 +1,254 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: rgb(255, 241, 219);
+    
+    box-shadow: 0 1px 6px rgba(192, 192, 192, 0.452);
+}
+/* ************************************* Logo ************************************* */
+.grid-container1 .item1{ /* logo */
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+}
+.grid-container1 .item1 img{
+    max-width: 70px;
+    height: auto;
+    padding-top: 40px;
+    padding-right: 30px;
+    float: right;
+    
+}
+/* ************************************* item2 ************************************* */
+.grid-container1 .item2{ 
+    grid-column: span 4;
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+}
+.grid-container1 .item2 li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.grid-container1 .item2 li a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(22, 22, 22);
+}
+/* ************************************* item3 ************************************* */
+.grid-container1 .item3{
+    grid-column: span 5;
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+}
+.grid-container1 .item3 li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.grid-container1 .item3 li a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+.fa-color2{
+    color: red;
+}
+#location{
+    color:rgb(19, 77, 163);
+    text-decoration: underline;
+}
+.order{
+    background-color: rgb(247, 189, 0);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+/* ************************************* item4 ************************************* */
+.grid-container1 .item4{ /* official menu */
+    grid-column: span 9;
+    background-color: rgb(255, 255, 255);
+}
+.grid-container1 .item4 li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.grid-container1 .item4 li a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+}
+
+/* ######################################## Content ########################################## */
+.grid-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 100px;
+}
+.grid-container2 .img{
+    width: 46vw;
+}
+.grid-container2 img{
+    width: 46vw;
+    height: auto;
+}
+.grid-container2 .text{
+    width: 25vw;
+    padding-left: 30px;
+}
+.grid-container2 .text h1{
+    color:rgb(51, 51, 51);
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 800;
+}
+.grid-container2 .text p{
+    font-family: arial;
+    color:rgb(80, 80, 80);
+}
+.grid-container2 .text h5{
+    color: rgb(119, 119, 119);
+    font-family: arial;
+    font-size: 9px;
+    font-weight: 100;
+}
+.grid-container2 .submit{
+    background: rgb(255, 187, 0);
+    height: 50px;
+    max-width: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-family: arial;
+    font-size: 16px;
+    color:rgb(51, 51, 51);
+    cursor: pointer;
+}
+/* ################################################################### */
+.grid-container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin-top: 100px;
+}
+.grid-container3 .col-1{
+    grid-column: span 2;
+    
+    width: 15vw;
+}
+.grid-container3 .col-1 li{
+    display: block;
+    padding-top: 10px;
+}
+.grid-container3 .col-1 h1{
+    color:rgb(39, 39, 39);
+    font-weight: 800;
+    font-size: 18px;
+    font-family: arial;
+}
+.grid-container3 .col-1 li a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-family: arial;
+    font-size: 15px;
+    padding-top: 10px;
+}
+/* ################################################################### */
+.grid-container4{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    margin-top: 50px;
+    margin-right: 0vw;
+    margin-left: 15vw;
+    margin-bottom: 50px;
+}
+.grid-container4 .col-1{
+    grid-column: span 6;
+    width: 500px;
+}
+.grid-container4 .col-1 li{
+    display: inline-block;
+}
+.grid-container4 .col-1 img{
+    width: 18px;
+    height: auto;
+}
+.grid-container4 .col-2{
+    grid-column: span 6;
+    width: 500px;
+}
+.grid-container4 .col-2 li{
+    display: inline-block;
+}
+.grid-container4 .col-2 li img{
+    width: 150px;
+    height: auto;
+}
+/* ################################################################### */
+.menuparent{
+    display: none;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    background-color: white;
+    width: 88%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 270px;
+    padding-left: 270px;
+    margin-top: 2px;
+    box-shadow: 0 1px 6px rgba(192, 192, 192, 0.452);
+}
+.menuparent .menu{
+    grid-column: span 4;
+    vertical-align: top;
+    /*border: 3px solid black;*/
+}
+.menuparent .menu img{
+    float: left;
+    padding-right: 15px;
+}
+.menu-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuparent .menu h5{
+    color:rgb(77, 77, 77);
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 100;
+}
+.menuparent .menu-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 12;
+    padding-top: 50px;
+}
+.menuparent .menu-button .menu-button-child{
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 50px;
+    box-shadow: 0 1px 6px rgba(151, 151, 151, 0.452);
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 15px;
+    color:rgb(39, 39, 39);
+}
